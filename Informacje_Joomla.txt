@@ -1,0 +1,23 @@
+Grupa: Konrad Płaska, Krzysztof Piechocki i Maciej Szczepkowski.
+Strona: https://kpkpms.5v.pl/
+Administrator Joomla: https://kpkpms.5v.pl/administrator/
+Login do Administratora Joomli: kpkpms
+Hasło do Administratora Joomli: Zajaczka7_Sala136
+Link do bazy danych: https://sql1.5v.pl/
+Serwer bazy danych: sql1.5v.pl
+Nazwa bazy danych: db-user56910
+Login do bazy danych: db-user56910
+Hasło do bazy danych: p6ax8fwbzfji3021
+
+Na stronie w zakładce Kontakt znajduje się formularz kontaktowy.
+Dane przesłane z formularza znajdują się w bazie danych, w tabeli "kpkpms_komunikator".
+
+Aktualizacja 29.04.2020
+Link do bazy danych: https:// sql4 . 5v .pl /
+Serwer bazy danych: sql4. 5v. pl 
+Nazwa bazy danych: db-user56910
+Login do bazy danych: db-user56910
+Hasło do bazy danych: p6ax8fwbzfji3021
+Host FTPa: host4 . 5v .pl
+Login do FTPa: kpkpms
+Hasło do FTPa: Zajaczka7_Sala136

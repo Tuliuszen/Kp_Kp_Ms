@@ -1,0 +1,87 @@
+nav {
+	border-top-color: #EBEBEB;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	font-family: Calibri;
+	border-top: 1px solid #EBEBEB;
+  	border-bottom: 1px solid #EBEBEB;
+}
+
+nav ul {
+	list-style-type: none;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	display: table;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	color: black;
+    background: #FFFFFF;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 16px;
+	position: relative;
+	text-decoration: none;
+}
+  
+nav ul li a {
+	color: black;
+	text-decoration: none;
+}
+
+nav ul li.current.active > a {
+	color: red;
+	text-decoration: none;
+}
+
+nav ul li:hover, nav ul li:focus-within {
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+	outline: none;
+	text-decoration: underline;
+	color: red;
+}
+
+nav ul li ul li:hover > a {
+	text-decoration: underline;
+	color: red;
+}
+
+nav ul li ul {
+	background-color: #F1F1F1;
+	visibility: hidden;
+	display: none;
+	opacity: 0;
+	min-width: 160px;
+	position: absolute;
+	transition: all 0.5s ease;
+	margin-top: 16px;
+	left: 0;
+	display: none;
+	list-style-position:inside;
+	z-index: 1;
+	
+}
+
+nav ul li:hover > ul, nav ul li:focus-within > ul, nav ul li ul:hover {
+	visibility: visible;
+	opacity: 1;
+	display: block;
+}
+
+nav ul li ul li {
+	background-color: #f1f1f1;
+	clear: both;
+	width: 100%;
+	text-align: left;
+	border-color: #ebebeb;
+	border-bottom: 1px solid #ebebeb;	
+	border-left: 1px solid #ebebeb;	
+	border-right: 1px solid #ebebeb;
+}

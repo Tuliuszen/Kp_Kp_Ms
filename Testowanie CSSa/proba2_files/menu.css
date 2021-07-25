@@ -1,0 +1,18 @@
+/* DROP-DOWN MENU */
+#head3 .container{overflow:visible;}
+#menu2 ul{white-space:nowrap;}
+#menu2 li{position:relative;white-space:nowrap;}
+#menu2 li:hover{background:#FFF;}
+#menu2 li a{display:block;}
+* html #menu2 li a{display:block;}
+#menu2 li a:hover{background:none;}
+#menu2 li li:hover, #menu2 li .selected{border-right:0;border-left:0;}
+
+#menu2 li ul{display:none;height:auto;float:left;z-index:10;position:absolute;left:0px;top:40px;border-left:0px solid #817f81;border-right:0;}
+#menu2 li:hover ul{display:block;}
+#menu2 li:hover ul ul{display:none;}
+#menu2 li ul li{position:relative;clear:left;float:left;width:16em;border-bottom:1px dotted #ede9dc;border-left:0;border-right:0;background:#f1f1f1;}
+#menu2 li ul li:hover{background: #f1f1f1;}
+#menu2 li ul li a{height:auto;margin:0;padding: 13px 5px;font-weight:normal;background:none;text-shadow:none;text-align:left;}
+#menu2 li ul li a:hover, #menu2 li ul .selected a{text-decoration:underline;}
+#menu2 .selected  ul li a, #menu2 li ul .selected a{background:none;}

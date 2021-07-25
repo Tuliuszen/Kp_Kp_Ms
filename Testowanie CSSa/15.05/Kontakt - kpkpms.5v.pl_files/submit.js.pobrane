@@ -1,0 +1,11 @@
+function SubmitFormData() {
+    var imie = jQuery("#imie").val();
+    var email = jQuery("#email").val();
+    var wiad = jQuery("#wiad").val();
+    jQuery.post("https://kpkpms.5v.pl/php/submit.php", { imie: imie, email: email, wiad: wiad },
+    function(data) {
+	 jQuery('#results').html(data);
+	 jQuery('#myForm')[0].reset();
+    });
+	alert('Dziękujemy za kontakt!');
+}

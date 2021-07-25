@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.0" type="template" method="upgrade" client="site">
+	<name>KP_KP_MS</name>
+	<version>1.0</version>
+	<creationDate>06/02/2020</creationDate>
+	<author>Konrad, Krzysiek i Maciek</author>
+	<description>My New Template</description>
+	<copyright>KPKPMS 2008</copyright>
+	
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<filename>index.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>template_preview.png</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	
+	<positions>
+		<position>menu</position>
+		<position>breadcrumb</position>
+		<position>jumbotron</position>
+		<position>top</position>
+		<position>left</position>
+		<position>right</position>
+	</positions>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="settings" label="Ustawienia">
+				<field name="text_logo" type="text" label="Tekst logo" description="Tekst logo 2"></field>
+				<field name="text_copy" type="text" label="Tekst w stopce" description="Tekst stopki 2"></field>
+			</fieldset>
+		</fields>
+	</config>
+	
+</extension>
